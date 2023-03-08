@@ -1,21 +1,25 @@
 <!-- The page from previous submission on wd101  -->
-<html>
+
+/*start */
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Form Validation</title>
+  <title>Form Validation  <title>
 </head>
 
 <body>
   <div id="main">
     <div id="form-box">
-      <h1>Register</h1>
+      <h1>Registeration</h1>
       <form id="form">
         <div id="username" class="inputs">
           <label for="name">Name</label>
-          <input type="text" id="name" name="name" placeholder="Your name.." required/>
+          <input type="text" id="name" name="name" placeholder="NAME" required/>
         </div>
         <div id="emailid" class="inputs">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" placeholder="Your email.." required />
+          <label for="emailid">Email</label>
+          <input type="email" id="emailid" name="email" placeholder="Your email.." required />
         </div>
         <div id="passwd" class="inputs">
           <label for="password">Password</label>
@@ -26,13 +30,17 @@
           <input id="dob" name="dob" type="date" required/>
         </div>
         <div id="agree">
-          <input id="tc" type="checkbox"> I agree to the terms and conditions</input>
+          <abbr title="please accept the term & conditions to proceed ">
+          <input id="tc" type="checkbox" required > I agree to the terms and conditions</input>
+          </abbr>
         </div>
-        <button id="submit" type="submit">Submit</button>
+      <abbr title="submit the form now">
+        <input type="submit" value="Submit Form" >
+      </abbr>
       </form>
     </div>
     <div id="table-box">
-        <h1>Entries</h1>
+        <h1> Latest Entries</h1>
         <table id="user-table">
           <tr>
             <th>Name</th>
