@@ -5,7 +5,7 @@ const http = require("http"); // Adding the http module for making a web server
 let args = require("minimist")(process.argv.slice(2), {
   // The slice is to remove the -- from arguments, as we will pass arguments as --port=3000
   default: {
-    // In case the port is not passed, we will use 3000 as default
+   // In case the port is not passed, we will use 3000 as default
     port: 3000,
   },
 });
