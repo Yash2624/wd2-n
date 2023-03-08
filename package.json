@@ -1,7 +1,7 @@
 {
-  "name": "project_folio",
+  "name": "project",
   "version": "1.0.0",
-  "description": "A place to access all the web based projects by kshitijv256",
+  "description": "A place to access projects by YASH",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kshitijv256/project_folio.git"
+    "url": "git+https://github.com/Yash2624/project.git"
   },
-  "author": "Kshitij Verma <kshitijv250@gmail.com>",
+  "author": "Yash Raj Anand <anandyash2624@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kshitijv256/project_folio/issues"
+    "url": "https://github.com/Yash2624/project/issues"
   },
-  "homepage": "https://github.com/kshitijv256/project_folio#readme",
+  "homepage": "https://github.com/Yash2624/project#readme",
   "dependencies": {
     "minimist": "^1.2.6"
   },
